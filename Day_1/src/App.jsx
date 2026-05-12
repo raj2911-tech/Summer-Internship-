@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 
 import Header from './header'
 import SkillList from './SkillList'
+import Stamina from './Stamina'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         { name: "JS", level: 95 },
         { name: "React", level: 80 },
       ]} />
+      <Stamina />
     </>
   )
 }
