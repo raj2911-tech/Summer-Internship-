@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #1f2937;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+    color: #60a5fa;
+}

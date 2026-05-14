@@ -1,0 +1,50 @@
+
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #020202;
+    padding-bottom: 10px;
+}
+
+.about-content p {
+    margin-bottom: 30px;
+    text-align: justify;
+    color: #020202;
+    font-size: large;
+}
+
+.about-content h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #020202;
+}
+
+.about-content ul {
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+.about-content dl {
+    margin-bottom: 20px;
+}
+
+.about-content dt {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #020202;
+    font-size: 1.1rem;
+}
+
+.about-content dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.about-content a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
