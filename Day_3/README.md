@@ -70,8 +70,7 @@ function App() {
 }
 
 export default App;
-```
-
+````
 ---
 
 
@@ -114,7 +113,6 @@ export default App;
 
 - **Local Dev Server:** http://localhost:5173
 - **Git Repository:** https://github.com/raj2911-tech/Summer-Internship-
-- **Note:** All changes are done in the **theRaj** branch.
 
 ---
 
