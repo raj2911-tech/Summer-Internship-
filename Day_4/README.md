@@ -94,10 +94,7 @@ function App() {
 }
 
 export default App
-
-  ```
-
-  ---
+````
 
 
 ## 💡 Key Learnings
