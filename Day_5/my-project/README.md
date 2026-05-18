@@ -63,9 +63,9 @@ export default function App() {
 ## 💡 Key Learnings
 
 ### Component Reusability
--Breaking UI into smaller, reusable components.
--Props-based customization of components.
--Consistent styling across components.
+- Breaking UI into smaller, reusable components.
+- Props-based customization of components.
+- Consistent styling across components.
 
 ### Tailwind CSS
 - Utility-first CSS framework speeds up development.
