@@ -88,6 +88,14 @@ src/
 - Handles the final order flow
 - Uses cart data from context
 
+
+## ScreenShots
+
+![Products Page](./Screenshots/products-page.png)
+![Cart Page](./Screenshots/cart-page.png)
+![Checkout Page](./Screenshots/checkout-page.png)
+
+
 ## Challenges Faced
 
 - **CartContext state management:** Handling add, increment, decrement, remove, and clear actions in a single global context was challenging.
