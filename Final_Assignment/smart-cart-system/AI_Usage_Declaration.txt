@@ -1,0 +1,82 @@
+================================================================================
+                        AI USAGE DECLARATION
+================================================================================
+
+Project Name: Smart Cart System
+Student Name: Raj Ghoniya
+Internship ID: PRL-MERN-2026-XXXX
+Date: 2026-06-09
+AI Tool Used: GitHub Copilot
+
+================================================================================
+                        FILES GENERATED/MODIFIED BY AI
+================================================================================
+
+The following files were written or significantly modified with the assistance 
+of GitHub Copilot:
+
+1. CSS FILES (Design & Styling)
+   - src/components/Cartitem.css
+   - src/components/ProductCard.css
+   - src/components/Nav.css
+   - src/pages/Cart.css
+   - src/index.css
+   
+   Purpose: Better UI/UX design and consistent styling across components
+   Reason: To save time and ensure professional appearance
+
+2. CONTEXT & STATE MANAGEMENT
+   - src/context/CartContext.jsx
+   
+   Purpose: Fixed multiple errors in state management logic
+   Changes: 
+     * Fixed addToCart function logic
+     * Corrected increment/decrement quantity bounds (1-10)
+     * Resolved state update issues
+   
+3. UTILITY FILES
+   - src/utils/discountCalculator.js
+   
+   Purpose: Fixed calculation logic after multiple errors
+   Changes:
+     * Corrected discount calculation formula
+     * Fixed price total calculations
+     * Enhanced validation
+
+4. PAGE COMPONENTS
+   - src/pages/Checkout.jsx
+   
+   Purpose: Fixed and enhanced checkout flow
+   Changes:
+     * Fixed component structure
+     * Corrected data handling from CartContext
+     * Improved error handling
+
+5. DOCUMENTATION
+   - README.md
+   - This AI_Usage_Declaration.txt
+
+================================================================================
+                        USAGE SUMMARY
+================================================================================
+
+AI Assistance Percentage: ~60%
+- CSS Design & Styling: 100% AI Generated
+- State Management: 60% AI 
+- Utility Functions: 60% AI Fixed
+- Page Components: 30% AI Assisted
+
+
+Time Saved In: 
+  * CSS styling and design
+  * Debugging state management issues
+  * Fixing calculation logic
+
+
+================================================================================
+
+
+Signature: Raj Ghoniya
+Date: 2026-06-09
+
+================================================================================
