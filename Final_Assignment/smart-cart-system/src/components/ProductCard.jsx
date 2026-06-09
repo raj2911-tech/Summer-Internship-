@@ -1,4 +1,4 @@
-import './ProductCard.css';
+import "./ProductCard.css";
 
 function ProductCard({ product, onAddToCart }) {
   return (
@@ -7,26 +7,21 @@ function ProductCard({ product, onAddToCart }) {
         src={product.image}
         alt={product.name}
         width="200"
+        loading="lazy"
+        decoding="async"
       />
-    
+
       <h3>{product.name}</h3>
       <p>{product.description}</p>
 
       <p>₹{product.price}</p>
-
       <p>Stock: {product.stock}</p>
       <h5>{product.category}</h5>
 
       {product.stock === 0 ? (
-        <button disabled>
-          Out Of Stock
-        </button>
+        <button disabled>Out Of Stock</button>
       ) : (
-        <button
-          onClick={() => onAddToCart(product)}
-        >
-          Add To Cart
-        </button>
+        <button onClick={() => onAddToCart(product)}>Add To Cart</button>
       )}
     </div>
   );

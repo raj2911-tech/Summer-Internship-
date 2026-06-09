@@ -1,23 +1,28 @@
+import { Suspense, lazy } from "react";
 import products from "../data/products.json";
-import ProductCard from "../components/ProductCard";
+import { useCart } from "../context/CartContext";
+
+const ProductCard = lazy(() => import("../components/ProductCard"));
 
 function Products() {
+  const { addToCart } = useCart();
 
   const handleAddToCart = (product) => {
-    console.log(product);
+    addToCart(product);
   };
 
   return (
-    <div className="products-grid">
- 
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          product={product}
-          onAddToCart={handleAddToCart}
-        />
-      ))}
-    </div>
+    <Suspense fallback={<p style={{ padding: 16 }}>Loading products...</p>}>
+      <div className="products-grid">
+        {products.map((product) => (
+          <ProductCard
+            key={product.id}
+            product={product}
+            onAddToCart={handleAddToCart}
+          />
+        ))}
+      </div>
+    </Suspense>
   );
 }
 
