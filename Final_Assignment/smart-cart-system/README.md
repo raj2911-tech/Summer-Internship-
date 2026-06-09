@@ -91,9 +91,11 @@ src/
 
 ## ScreenShots
 
-![Products Page](./Screenshots/products-page.png)
-![Cart Page](./Screenshots/cart-page.png)
-![Checkout Page](./Screenshots/checkout-page.png)
+![Products Page](Screenshots/products-page.png)
+![Cart Page](Screenshots/cart-page.png)
+![Checkout Page](Screenshots/checkout-page1.png)
+![Checkout Page](Screenshots/checkout-page2.png)
+
 
 
 ## Challenges Faced
